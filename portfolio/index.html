@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdalrhman Osama - Flutter Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Section 1: Hero / About Me -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <div class="profile-image">
+        <img src="me.jpg" alt="Abdalrhman Osama">
+      </div>
+      <div class="hero-text">
+        <h1 class="hero-name">Abdalrhman Osama</h1>
+        <p class="hero-title">Flutter Developer</p>
+        <p class="hero-bio">
+          I'm Abdalrhman Osama, a Flutter Developer with 1 year of design experience. I've worked on many diverse projects in the field of mobile development such as <span class="highlight">Flutter applications</span>, <span class="highlight">Android & iOS development</span>, <span class="highlight">UI/UX implementation</span>, <span class="highlight">API integration</span>, and <span class="highlight">app performance optimization</span> to deliver the best user experience through design and functionality. In my free time, I serve as a mentor for many students to teach mobile app development and Flutter best practices.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="section-divider"></div>
+
+  <!-- Section 2: Projects -->
+  <section class="projects-section">
+    <h2 class="section-title">My Projects</h2>
+
+    <!-- Project 1: Quran App -->
+    <div class="project-card">
+      <div class="project-phone">
+        <div class="ios-frame">
+          <div class="dynamic-island">Quran App</div>
+          <div class="screen-content" id="quranScreen">
+            <img id="quranImg" src="quran/Splash.png" alt="Quran App Screenshot">
+          </div>
+        </div>
+        <p class="tap-hint">Tap to view next</p>
+      </div>
+      <div class="project-info">
+        <h3 class="project-name">Quran App</h3>
+        <p class="project-description">
+          A comprehensive Quran memorization and management app designed for Islamic education centers. Features include student management, attendance tracking, progress reports, memorization scheduling, and challenge creation for students. The app helps teachers (محفظين) efficiently manage their students' Quran learning journey with detailed analytics and notifications.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Flutter</span>
+          <span class="tag">Firebase</span>
+          <span class="tag">REST API</span>
+          <span class="tag">State Management</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2: P2P App -->
+    <div class="project-card reverse">
+      <div class="project-phone">
+        <div class="ios-frame">
+          <div class="dynamic-island">P2P App</div>
+          <div class="screen-content" id="p2pScreen">
+            <img id="p2pImg" src="p2p/1.jpeg" alt="P2P App Screenshot">
+          </div>
+        </div>
+        <p class="tap-hint">Tap to view next</p>
+      </div>
+      <div class="project-info">
+        <h3 class="project-name">P2P App</h3>
+        <p class="project-description">
+          A peer-to-peer trading and exchange platform that enables users to securely buy, sell, and trade with other users. The app features a clean, intuitive interface with real-time updates, secure transactions, and user verification systems to ensure safe trading experiences.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Flutter</span>
+          <span class="tag">API Integration</span>
+          <span class="tag">UI/UX</span>
+          <span class="tag">Security</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="section-divider"></div>
+
+  <!-- Section 3: Contact -->
+  <section class="contact-section">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="contact-subtitle">Feel free to reach out for collaborations or just a friendly hello</p>
+    
+    <div class="contact-links">
+      <a href="tel:+201122659904" class="contact-item">
+        <div class="contact-icon">
+          <i class="fas fa-phone"></i>
+        </div>
+        <span class="contact-label">Phone</span>
+        <span class="contact-value">+20 1122659904</span>
+      </a>
+      
+      <a href="mailto:abduos369@gmail.com" class="contact-item">
+        <div class="contact-icon">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <span class="contact-label">Email</span>
+        <span class="contact-value">abduos369@gmail.com</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/abdalrhman-osama-0813931bb/" target="_blank" class="contact-item">
+        <div class="contact-icon">
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">Connect with me</span>
+      </a>
+      
+      <a href="https://github.com/ABDO-OS" target="_blank" class="contact-item">
+        <div class="contact-icon">
+          <i class="fab fa-github"></i>
+        </div>
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">@ABDO-OS</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2024 Abdalrhman Osama. All rights reserved.</p>
+  </footer>
+
+<script>
+  // Quran App images
+  const quranImages = [
+    'quran/Splash.png',
+    'quran/Onboarding.png',
+    'quran/register.png',
+    'quran/Home.png',
+    'quran/الملف الشخصي.png',
+    'quran/إدارة الطلاب.png',
+    'quran/إدارة المحفظين.png',
+    'quran/إدارة المجموعات.png',
+    'quran/إدارة درجات لطلاب.png',
+    'quran/تسجيل الحضور والغياب.png',
+    'quran/لوحة الحضور والغياب.png',
+    'quran/اضافة الحفظ.png',
+    'quran/انشطة طالب.png',
+    'quran/انشاء تحدي جديد.png',
+    'quran/التحديات 1.png',
+    'quran/ارسال اشعارات.png',
+    'quran/التقارير العامة.png',
+    'quran/التقارير-1.png',
+    'quran/التقارير-2.png'
+  ];
+
+  // P2P App images
+  const p2pImages = [
+    'p2p/1.jpeg',
+    'p2p/2.jpeg',
+    'p2p/3.jpeg',
+    'p2p/4.jpeg',
+    'p2p/5.jpeg',
+    'p2p/6.jpeg'
+  ];
+
+  // Setup for Quran phone
+  setupPhone('quranScreen', 'quranImg', quranImages);
+  
+  // Setup for P2P phone
+  setupPhone('p2pScreen', 'p2pImg', p2pImages);
+
+  function setupPhone(screenId, imgId, images) {
+    const screen = document.getElementById(screenId);
+    const img = document.getElementById(imgId);
+    let currentIndex = 0;
+    let startY = 0;
+    let scrolled = false;
+
+    function nextImage() {
+      currentIndex = (currentIndex + 1) % images.length;
+      img.classList.add('fade-out');
+      
+      setTimeout(() => {
+        img.src = images[currentIndex];
+        img.classList.remove('fade-out');
+        screen.scrollTop = 0;
+      }, 150);
+    }
+
+    // Mouse events
+    screen.addEventListener('mousedown', (e) => {
+      startY = e.clientY;
+      scrolled = false;
+    });
+
+    screen.addEventListener('mousemove', (e) => {
+      if (Math.abs(e.clientY - startY) > 5) {
+        scrolled = true;
+      }
+    });
+
+    screen.addEventListener('mouseup', (e) => {
+      if (!scrolled) {
+        nextImage();
+      }
+    });
+
+    // Touch events
+    screen.addEventListener('touchstart', (e) => {
+      startY = e.touches[0].clientY;
+      scrolled = false;
+    });
+
+    screen.addEventListener('touchmove', (e) => {
+      if (Math.abs(e.touches[0].clientY - startY) > 5) {
+        scrolled = true;
+      }
+    });
+
+    screen.addEventListener('touchend', (e) => {
+      if (!scrolled) {
+        nextImage();
+      }
+    });
+  }
+</script>
+
+</body>
+</html>
