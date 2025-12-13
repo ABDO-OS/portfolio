@@ -332,8 +332,8 @@ body {
   .ios-frame {
     width: 320px;
     height: 693px;
-    border: 12px solid #000;
-    border-radius: 50px;
+    border: 16px solid #000;
+    border-radius: 60px;
   }
 
   .dynamic-island {
@@ -418,8 +418,8 @@ body {
   .ios-frame {
     width: 300px;
     height: 650px;
-    border: 12px solid #000;
-    border-radius: 45px;
+    border: 14px solid #000;
+    border-radius: 55px;
   }
 
   .dynamic-island {
@@ -485,8 +485,8 @@ body {
     max-width: 320px;
     height: calc((100vw - 80px) * 2.16);
     max-height: 693px;
-    border: 10px solid #000;
-    border-radius: 40px;
+    border: 14px solid #000;
+    border-radius: 50px;
   }
 
   .dynamic-island {
@@ -533,8 +533,8 @@ body {
   }
 
   .ios-frame {
-    border: 6px solid #000;
-    border-radius: 25px;
+    border: 12px solid #000;
+    border-radius: 45px;
   }
 
   .section-title {
