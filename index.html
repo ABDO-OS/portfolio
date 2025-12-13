@@ -149,6 +149,34 @@
         </div>
       </div>
     </div>
+
+    <!-- Project 5: GOT App -->
+    <div class="project-card">
+      <div class="project-phone">
+        <div class="ios-frame">
+          <div class="dynamic-island">GOT App</div>
+          <div class="screen-content" id="gotScreen">
+            <img id="gotImg" src="GOT App/1.jpeg" alt="GOT App Screenshot">
+          </div>
+        </div>
+        <p class="tap-hint">Tap to view next</p>
+      </div>
+      <div class="project-info">
+        <h3 class="project-name">Game of Thrones App</h3>
+        <p class="project-description">
+          A Game of Thrones character explorer app that fetches data from a REST API to display character images, names, and detailed information. Built with clean architecture principles using Bloc state management for efficient state handling. Features include character browsing, search functionality, and detailed character profiles with smooth UI transitions.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Flutter</span>
+          <span class="tag">Bloc</span>
+          <span class="tag">REST API</span>
+          <span class="tag">Clean Architecture</span>
+          <span class="tag">Responsive UI</span>
+          <span class="tag">Character Details</span>
+          <span class="tag">Search</span>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Divider -->
@@ -272,6 +300,19 @@
 
   // Setup for Easy Bio phone
   setupPhone('easyBioScreen', 'easyBioImg', easyBioImages);
+
+  // GOT App images
+  const gotImages = [
+    'GOT App/1.jpeg',
+    'GOT App/2.jpeg',
+    'GOT App/3.jpeg',
+    'GOT App/4.jpeg',
+    'GOT App/5.jpeg',
+    'GOT App/6.jpeg'
+  ];
+
+  // Setup for GOT phone
+  setupPhone('gotScreen', 'gotImg', gotImages);
 
   function setupPhone(screenId, imgId, images) {
     const screen = document.getElementById(screenId);
