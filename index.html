@@ -93,6 +93,33 @@
       </div>
     </div>
 
+    <!-- Project 6: Alhly App -->
+    <div class="project-card reverse">
+      <div class="project-phone">
+        <div class="ios-frame">
+          <div class="dynamic-island">Alhly App</div>
+          <div class="screen-content" id="alhlyScreen">
+            <img id="alhlyImg" src="Alhly/1.jpg" alt="Alhly App Screenshot">
+          </div>
+        </div>
+        <p class="tap-hint">Tap to view next</p>
+      </div>
+      <div class="project-info">
+        <h3 class="project-name">Alhly App</h3>
+        <p class="project-description">
+          A comprehensive mobile application for Al Ahly sports club. Features include match schedules, live scores, team information, player profiles, news updates, and fan engagement tools. The app provides a seamless experience for fans to stay connected with their favorite team, access real-time updates, and engage with the Al Ahly community.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Flutter</span>
+          <span class="tag">Responsive UI</span>
+          <span class="tag">API Integration</span>
+          <span class="tag">Live Updates</span>
+          <span class="tag">Cubit</span>
+          <span class="tag">Sports App</span>
+        </div>
+      </div>
+    </div>
+    
    <!-- Project 3: Store App -->
     <div class="project-card">
       <div class="project-phone">
@@ -177,6 +204,7 @@
         </div>
       </div>
     </div>
+
   </section>
 
   <!-- Divider -->
@@ -313,6 +341,23 @@
 
   // Setup for GOT phone
   setupPhone('gotScreen', 'gotImg', gotImages);
+
+  // Alhly App images
+  const alhlyImages = [
+    'Alhly/1.jpg',
+    'Alhly/2.jpg',
+    'Alhly/3.jpg',
+    'Alhly/4.jpg',
+    'Alhly/5.jpg',
+    'Alhly/6.jpg',
+    'Alhly/7.jpg',
+    'Alhly/8.jpg',
+    'Alhly/9.jpg',
+    'Alhly/10.jpg'
+  ];
+
+  // Setup for Alhly phone
+  setupPhone('alhlyScreen', 'alhlyImg', alhlyImages);
 
   function setupPhone(screenId, imgId, images) {
     const screen = document.getElementById(screenId);
